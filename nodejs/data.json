@@ -1,0 +1,9 @@
+{
+    "name": "aarif khan",
+    "age": 21,
+    "college_details": {
+        "degree": "btech",
+        "branch": "cse",
+        "semester": 4
+    }
+}

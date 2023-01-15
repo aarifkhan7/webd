@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Javascript Prototypes</title>
+    </head>
+    <body>
+        
+    </body>
+    <script>
+        let point = {x: 2, y: 3};
+        let origin = {x: 0, y: 0};
+        
+        let d = new Date();
+        function getpoint(x, y){
+            this.x = x;
+            this.y = y;
+            return this;
+        }
+
+        let point1 = new getpoint(1, 2);
+        let point2 = new getpoint(2, 3);
+    </script>
+</html>
