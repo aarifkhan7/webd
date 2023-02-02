@@ -1,0 +1,121 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+#about-image {
+    height: 391px;
+    padding-left: 80px;
+    padding-top: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* opacity: 0.8; */
+    backdrop-filter: blur(44.1667px);
+    box-shadow: inset 44.1667px -44.1667px 44.1667px rgba(0, 0, 0, 0.1), inset -44.1667px 44.1667px 44.1667px rgba(255, 255, 255, 0.1);
+    background-image: url('./main.jpg');
+    background-size: cover;
+    color: white;
+}
+
+/* @media (max-width: 768px) {
+    
+} */
+
+@media (max-width: 768px) {
+    #about-tedx-text {
+        font-size:20px !important;
+    }
+}
+
+
+#about-tedx-text {
+    font-family: 'Harmattan';
+    font-size: 50px;
+    line-height: 85px;
+}
+
+#about-x-text {
+    position: relative;
+    top: -20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#about-theme {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 108.14px;
+    margin-bottom: 20px;
+}
+
+#about-venue-time {
+    font-size: 17.89px;
+    line-height: 20.46px;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    #about-main > div{
+        font-size: 40px !important;
+    }
+}
+
+#about-main{
+    text-align: center;
+    font-weight: 400;
+}
+
+#about-main > div{
+    font-size: 50px;
+    line-height: 85px;
+    margin:40px 0px;
+}
+
+#about-main > p{
+    font-size: 22px;
+    color: #8A8787;
+    line-height: 37px;
+}
+
+hr{
+    height: 15px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border: 0px;
+    background-image: url('hr.jpg');
+    background-color: gainsboro
+}
+
+@media (max-width: 768px) {
+    #about-main-grid{
+        display: block !important;
+        padding: 50px 0px !important;
+        margin: 10px 10px !important;
+    }
+
+    #about-main-grid-left {
+        display: none;
+    }
+    #about-main-grid-right {
+        display: none;
+    }
+}
+
+#about-main-grid {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    text-align: center;
+    margin: 40px 0px;
+    margin-bottom: 100px;
+}
+
+#about-main-grid-center {
+    margin-top: 40px;
+    line-height: 31px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Harmattan';
+    font-style: normal;
+}
